@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://4pqund3nukl7"]
+
+[ext_resource type="Script" uid="uid://dt3nc4our1mgp" path="res://node_2d.gd" id="1_wtcfe"]
+[ext_resource type="Script" uid="uid://bsuygxhr05tam" path="res://button.gd" id="2_0e48y"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_wtcfe")
+
+[node name="Button1" type="Button" parent="."]
+offset_left = 340.0
+offset_top = 223.0
+offset_right = 826.0
+offset_bottom = 459.0
+script = ExtResource("2_0e48y")
