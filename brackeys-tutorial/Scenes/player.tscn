@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://w1o21xj1whrv"]
 
-[ext_resource type="Script" uid="uid://bn6mn3yrcp5dy" path="res://player.gd" id="1_cvnsp"]
+[ext_resource type="Script" uid="uid://bn6mn3yrcp5dy" path="res://Scripts/player.gd" id="1_cvnsp"]
 [ext_resource type="Texture2D" uid="uid://dug2i3tmow1j5" path="res://Assets/sprites/knight.png" id="1_v0iea"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cvnsp"]
@@ -39,7 +39,7 @@ animations = [{
 "speed": 10.0
 }]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3smsa"]
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_cvnsp"]
 radius = 5.0
 height = 14.0
 
@@ -57,4 +57,4 @@ frame_progress = 0.45221552
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -7)
-shape = SubResource("CapsuleShape2D_3smsa")
+shape = SubResource("CapsuleShape2D_cvnsp")
