@@ -10,7 +10,6 @@ config_version=5
 
 [application]
 
-config/name="TestIng Grounds"
-run/main_scene="uid://4pqund3nukl7"
+config/name="Top Down Test 1"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
