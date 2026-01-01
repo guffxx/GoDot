@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://baage3ng6a5jq"]
+
+[ext_resource type="Texture2D" uid="uid://b44rlt7rc40or" path="res://Assests/Buildings/Black Buildings/Tower.png" id="1_ow4ev"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qcyrs"]
+size = Vector2(81, 144)
+
+[node name="Tower_1" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ow4ev")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 21)
+shape = SubResource("RectangleShape2D_qcyrs")
